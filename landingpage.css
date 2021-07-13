@@ -1,0 +1,8 @@
+body{ 
+    background-image: url("https://imgur.com/dsGsqu0.jpg");
+    cursor: url('astronautcursor.cur'), auto;
+}
+
+.planet:hover{
+    border: 5px double white;
+}
