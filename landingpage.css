@@ -3,6 +3,35 @@ body{
     cursor: url('astronautcursor.cur'), auto;
 }
 
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .planet:hover{
-    border: 5px double white;
+    border: 3px dashed red;
+    cursor: url('astronautcursor.cur'), auto;
+}
+
+.planet img:hover{
+    cursor: url('rocketcursor.cur'), auto;
+    opacity: 0.7;
+}
+
+.planet{
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
