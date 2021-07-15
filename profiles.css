@@ -8,28 +8,30 @@ html{
 
 body{
     cursor: url('astronautcursor.cur'), auto;
-    background-image: url("https://imgur.com/oqoZVCc.jpg");
+    background-image: url("https://imgur.com/zXitIhX.jpg");
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1{
     display: flex;
     justify-content: center;
     color: black;
-    
+    font-size: 50px;
 }
 
-h2{
+p{
     display: flex;
     justify-content: center;
     color: black;
+    font-size: 23px;
 }
 
 .navbar{
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
-    margin: 10;
+    background-color: #2196F3;
+    margin: 5px;
     border: 3px dashed white;
 }
 
@@ -41,5 +43,95 @@ h2{
 
 .navbar img:hover{
     cursor: url('rocketcursor.cur'), auto;
+    opacity: 0.7;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+.instagram{
+    border: 5px double white;
+    margin: 5px;
+}
+
+.instagram:hover{
+    border: 5px double red;
+}
+
+.instagram img{
+    height: 250px;
+    width: 250px;
+}
+
+.instagram img:hover{
+    cursor: url('astronautcursor.cur'), auto;
+    opacity: 0.7;
+}
+
+.linkedin{
+    border: 5px double white;
+    margin: 5px;
+}
+
+.linkedin:hover{
+    border: 5px double red;
+}
+
+.linkedin img{
+    height: 250px;
+    width: 250px;
+}
+
+.linkedin img:hover{
+    cursor: url('astronautcursor.cur'), auto;
+    opacity: 0.7;
+}
+
+.socials2{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 30px;
+}
+
+.github{
+    border: 5px double white;
+    margin: 5px;
+}
+
+.github:hover{
+    border: 5px double red;
+}
+
+.github img{
+    height: 250px;
+    width: 250px;
+}
+
+.github img:hover{
+    cursor: url('astronautcursor.cur'), auto;
+    opacity: 0.7;
+}
+
+.gmail{
+    border: 5px double white;
+    margin: 5px;
+}
+
+.gmail:hover{
+    border: 5px double red;
+}
+
+.gmail img{
+    height: 250px;
+    width: 250px;
+}
+
+.gmail img:hover{
+    cursor: url('astronautcursor.cur'), auto;
     opacity: 0.7;
 }

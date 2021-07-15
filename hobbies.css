@@ -3,34 +3,37 @@
 }
 
 html{
-    height: 100%;    
+    height: 130%;    
 }
 
 body{
     cursor: url('astronautcursor.cur'), auto;
-    background-image: url("https://imgur.com/oqoZVCc.jpg");
+    background-image: url("https://imgur.com/F2iDA3X.jpg");
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1{
     display: flex;
     justify-content: center;
     color: black;
-    
+    font-size: 50px;
 }
 
-h2{
-    display: flex;
-    justify-content: center;
-    color: black;
+p{
+    font-size: 35px;
+    border: 1px solid white;
+    background-image: linear-gradient(white, yellow);
+    text-align: center;
+    margin: auto;
 }
 
 .navbar{
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
+    background-color: white;
     margin: 10;
-    border: 3px dashed white;
+    border: 3px dashed black;
 }
 
 .navbar img{
@@ -42,4 +45,42 @@ h2{
 .navbar img:hover{
     cursor: url('rocketcursor.cur'), auto;
     opacity: 0.7;
+}
+
+.robotics{  
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    height: 29%;
+}
+
+.robotics img{
+    height: 25%;
+    width: 25%;
+    border: 3px double white;
+    margin: 10px;
+}
+
+.notschool{  
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    height: 29%;
+}
+
+.notschool img{
+    height: 25%;
+    width: 25%;
+    border: 3px double white;
+    margin: 10px;
+}
+
+.music{  
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.musictext{
+    width: 950px;
 }

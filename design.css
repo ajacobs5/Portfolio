@@ -3,12 +3,12 @@
 }
 
 html{
-    height: 100%;    
+    height: 110%;    
 }
 
 body{
     cursor: url('astronautcursor.cur'), auto;
-    background-image: url("https://imgur.com/72mPuRW.jpg");
+    background-image: url("https://imgur.com/9FbgVm3.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -17,13 +17,15 @@ h1{
     display: flex;
     justify-content: center;
     color: black;
-    
+    font-size: 50px;
 }
 
-h2{
+p{
     display: flex;
     justify-content: center;
     color: black;
+    font-size: 23px;
+    background-color: #F06291;
 }
 
 .navbar{
@@ -68,7 +70,7 @@ h2{
 
 .proj img:hover{
     cursor: url('astronautcursor.cur'), auto;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .projects2{
@@ -94,5 +96,5 @@ h2{
 
 .proj2 img:hover{
     cursor: url('astronautcursor.cur'), auto;
-    opacity: 0.8;
+    opacity: 0.7;
 }

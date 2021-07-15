@@ -3,32 +3,34 @@
 }
 
 html{
-    height: 100%;    
+    height: 115%;
 }
 
 body{
     cursor: url('astronautcursor.cur'), auto;
-    background-image: url("https://imgur.com/oqoZVCc.jpg");
+    background-image: url("https://imgur.com/9NfGTVr.jpg");
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1{
     display: flex;
     justify-content: center;
-    color: black;
-    
+    color: white;
+    font-size: 50px;
 }
 
-h2{
+p{
     display: flex;
     justify-content: center;
-    color: black;
+    color: white;
+    font-size: 23px;
 }
 
 .navbar{
     display: flex;
     justify-content: flex-end;
-    background-color: grey;
+    background-color: black;
     margin: 10;
     border: 3px dashed white;
 }
@@ -42,4 +44,28 @@ h2{
 .navbar img:hover{
     cursor: url('rocketcursor.cur'), auto;
     opacity: 0.7;
+}
+
+.about{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about img{
+    height: 15%;
+    width: 15%;
+    border: 3px double white;
+    margin: 10px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img{
+    height: 13%;
+    width: 15%;
+    border: 3px double white;
+    margin: 10px;
 }
