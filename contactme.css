@@ -8,7 +8,7 @@ html{
 
 body{
     cursor: url('astronautcursor.cur'), auto;
-    background-image: url("https://imgur.com/f8gO75L.jpg");
+    background-image: url("https://imgur.com/VAjrgL5.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -25,6 +25,7 @@ p{
     justify-content: center;
     color: black;
     font-size: 23px;
+    background-color: #2196F3;
 }
 
 .navbar{
