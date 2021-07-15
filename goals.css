@@ -31,18 +31,36 @@ p{
 .navbar{
     display: flex;
     justify-content: flex-end;
-    background-color: #41A5F5;
+    background-color: #40A3F4;
     margin: 10;
-    border: 3px dashed white;
 }
 
 .navbar img{
     height: 50px;
     width: 50px;
     margin: 100;
+    animation: bounce 2s infinite;
 }
 
 .navbar img:hover{
     cursor: url('rocketcursor.cur'), auto;
     opacity: 0.7;
 }
+
+.goals{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#40A3F4, white);
+    border: 5px double white;
+    font-size: 23px;
+}
+
+@keyframes bounce {
+    from {
+      transform: translate(0, 0px);
+    } 50% {
+      transform: translate(0, -3px);
+    } to {
+      transform: translate(0, 0px);
+    }
+  }

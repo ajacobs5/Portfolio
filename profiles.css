@@ -31,14 +31,14 @@ p{
     display: flex;
     justify-content: flex-end;
     background-color: #2196F3;
-    margin: 5px;
-    border: 3px dashed white;
+    margin: 10;
 }
 
 .navbar img{
     height: 50px;
     width: 50px;
     margin: 100;
+    animation: bounce 2s infinite;
 }
 
 .navbar img:hover{
@@ -135,3 +135,13 @@ p{
     cursor: url('astronautcursor.cur'), auto;
     opacity: 0.7;
 }
+
+@keyframes bounce {
+    from {
+      transform: translate(0, 0px);
+    } 50% {
+      transform: translate(0, -3px);
+    } to {
+      transform: translate(0, 0px);
+    }
+  }

@@ -3,7 +3,7 @@
 }
 
 html{
-    height: 145%;    
+    height: 172%;    
 }
 
 body{
@@ -23,22 +23,22 @@ h1{
 p{
     font-size: 35px;
     border: 1px solid white;
-    background-image: linear-gradient(white, yellow);
+    background-image: linear-gradient(#BCE1EB, white);
     text-align: center;
 }
 
 .navbar{
     display: flex;
     justify-content: flex-end;
-    background-color: #BCE1EB;
+    background-color: #BCE1EC;
     margin: 10;
-    border: 3px dashed white;
 }
 
 .navbar img{
     height: 50px;
     width: 50px;
     margin: 100;
+    animation: bounce 2s infinite;
 }
 
 .navbar img:hover{
@@ -65,3 +65,25 @@ p{
     height: 700px;
     padding-left: 200px; 
 }
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img{
+    height: 13%;
+    width: 15%;
+    border: 3px double white;
+    margin: 10px;
+}
+
+@keyframes bounce {
+    from {
+      transform: translate(0, 0px);
+    } 50% {
+      transform: translate(0, -3px);
+    } to {
+      transform: translate(0, 0px);
+    }
+  }
