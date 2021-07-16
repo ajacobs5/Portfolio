@@ -61,9 +61,7 @@ p{
 .slides{
     display: flex;
     justify-content: center;
-    width: 1500px;
-    height: 700px;
-    padding-left: 200px; 
+    padding-left: 20%; 
 }
 
 .gallery{
